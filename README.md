@@ -1,5 +1,7 @@
 # 🔍 Log Analiz Aracı
 
+[![Testler](https://github.com/sumeyyeealtintas/log-analiz-araci/actions/workflows/ci.yml/badge.svg)](https://github.com/sumeyyeealtintas/log-analiz-araci/actions/workflows/ci.yml)
+
 Nginx / Apache **erişim loglarını** okuyup trafik istatistiği çıkaran ve **şüpheli davranışları** tespit eden bir komut satırı aracı: zafiyet taraması, kaba kuvvet (brute-force) giriş saldırısı ve sunucu hatası (5xx) patlaması. Harici kütüphane gerektirmez.
 
 > Sunucuya bir şey olduğunda ilk bakılan yer loglardır. Bu araç, binlerce satırı okumak yerine "ne oldu?" sorusuna saniyeler içinde cevap verir.
